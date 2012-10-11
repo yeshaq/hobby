@@ -1,0 +1,9 @@
+alias yopc='ssh -X yossof-pc.cern.ch'
+alias cmstunnel='ssh -t yeshaq@lxplus.cern.ch -L9997:localhost:9997 "ssh -ND 9997 yeshaq@cmsusr0"'
+#alias crabtunnel='ssh -t yeshaq@lxplus.cern.ch -L9997:vocms58.cern.ch:8888"'
+#alias crabtunnel='ssh -t yeshaq@lxplus.cern.ch -L9997:vocms58.cern.ch:8888"'
+alias crabtunnel='ssh -t yeshaq@lxplus.cern.ch -L9997:vocms58.cern.ch:8888'
+alias flk='kinit -A -f yeshaq@FNAL.GOV'
+alias fl='ssh -X -Y yeshaq@cmslpc-sl5.fnal.gov'
+alias emacs='emacs -nw'
+

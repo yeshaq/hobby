@@ -1,0 +1,7 @@
+Host yossof-pc.cern.ch
+	ProxyCommand=ssh -q yeshaq@lxplus.cern.ch nc %h %p
+	User yeshaq
+
+
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials yes
